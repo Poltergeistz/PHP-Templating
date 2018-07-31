@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>PHP templating</title>
+</head>
+<body>
+    <!-- Grid Start-->
+    <!-- Row -->
+    <!-- Columns -->
+    <!-- Container -->
+    <div class="ui container">
+    <div class="ui grid">
+    <div class="eight wide column">
+    <h1 class="ui center aligned header">{{companyName}}</h1>
+    <h2 class="ui center aligned header">{{catchPhrase}}</h2>
+    <p>At {{companyName}}, we create {{productAdjective}} {{productName}} made of {{productMaterial}} </p>
+    <p>Find out more on {{url}} </p>
+    <!-- Card -->
+    <div class="ui card">
+        <div class="image">
+        <img src="https://picsum.photos/200/300/?random">
+        </div>
+        <div class="content">
+        <h2>{{productName}}</h2>
+        <p>Material : {{productMaterial}} </p>
+        <p>Color : {{color}} </p>
+        <h2>{{price}} $ only !</h2>
+    </div>
+    <button class="ui button">
+            Take my money!
+          </button>
+    </div>
+    </div>
+
+        <!-- Right -->
+        <div class="five wide column">
+        <img class="ui Small circular image" src="https://picsum.photos/200/200/?random">
+        <h2> {{userName}} </h2>
+        <h2> {{job}} </h2>
+        <h3>Contact Info</h3>
+        <p>email@email.com</p>
+        <p>06 06 06 06 06</p>
+        <p>13 rue vieille</p>
+        <p>92 500 Ville-nouvelle</p>
+</div>
+</div>
+</div>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.js"></script>
+</body>
+</html>
